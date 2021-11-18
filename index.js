@@ -8,6 +8,9 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/view/index.html')
 })
 app.use(express.static('./public'));
-app.listen(2001,function(){
+const porta=process.env.PORT || 2021
+/*app.listen(2001,function(){
     console.log('Sucess 2001')
-})
+})*/
+app.listen(porta);
+console.log(porta)
