@@ -6,12 +6,17 @@
     font-family: aquire;
     src: url('../fonts/AquireBold.otf');
 }
+@font-face {
+    font-family: branding;
+    src: url('../fonts/Branding\ Pro\ Bold.otf');
+}
+
 .nav-item a{
     font-family: aquire;
     color:#289FBF;
 }
 .color-primary{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: branding;
     color:#289FBF;
 }
 .about{
