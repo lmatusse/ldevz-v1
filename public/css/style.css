@@ -1,0 +1,40 @@
+
+.border-bottom {
+    border-bottom: none !important;
+}
+@font-face {
+    font-family: aquire;
+    src: url('../fonts/AquireBold.otf');
+}
+.nav-item a{
+    font-family: aquire;
+    color:#289FBF;
+}
+.color-primary{
+    font-family: aquire;
+    color:#289FBF;
+}
+.about{
+width: 100%;
+height: 30vh;
+background: rgb(248,153,29);
+background: linear-gradient(90deg, rgba(248,153,29,1) 0%, rgba(236,125,49,1) 25%, rgba(193,82,24,1) 43%);
+}
+.about .l-container{
+    top: 50% !important;
+    position: relative;
+    left: 5% !important
+}
+.nav-pills .nav-link.active{
+    background-color: #F8991D !important;
+}
+.color-secundary{
+   
+    color:#F8991D;
+}
+.text-start{
+    top:20% !important
+}
+.trein{
+    margin-top: 2%;
+}
