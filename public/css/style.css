@@ -14,6 +14,7 @@
 .nav-item a{
     font-family: aquire;
     color:#289FBF;
+    text-transform: uppercase;
 }
 .color-primary{
     font-family: branding;
