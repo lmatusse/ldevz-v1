@@ -10,6 +10,10 @@
     font-family: branding;
     src: url('../fonts/Branding\ Pro\ Bold.otf');
 }
+@font-face {
+    font-family: branding-regular;
+    src: url('../fonts/Branding\ Pro\ Regular.otf');
+}
 
 .nav-item a{
     font-family: aquire;
@@ -36,7 +40,8 @@ background: linear-gradient(90deg, rgba(248,153,29,1) 0%, rgba(236,125,49,1) 25%
     background-color: #F8991D !important;
 }
 .color-secundary{
-   
+    font-family: branding-regular;
+   text-transform: uppercase;
     color:#F8991D;
 }
 .text-start{
