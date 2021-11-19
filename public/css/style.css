@@ -14,7 +14,10 @@
     font-family: branding-regular;
     src: url('../fonts/Branding\ Pro\ Regular.otf');
 }
-
+@font-face {
+    font-family: branding-light;
+    src: url('../fonts/Branding\ Pro\ Light.otf');
+}
 .nav-item a{
     font-family: aquire;
     color:#289FBF;
@@ -36,6 +39,10 @@ background: linear-gradient(90deg, rgba(248,153,29,1) 0%, rgba(236,125,49,1) 25%
     position: relative;
     left: 5% !important
 }
+.l-container2{
+    padding-left: 10%;
+    padding-right: 10%;
+}
 .nav-pills .nav-link.active{
     background-color: #F8991D !important;
 }
@@ -47,6 +54,32 @@ background: linear-gradient(90deg, rgba(248,153,29,1) 0%, rgba(236,125,49,1) 25%
 .text-start{
     top:20% !important
 }
+.trein-text{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: branding-light;
+    font-size: 24px;
+    font-weight: bold;
+}
 .trein{
     margin-top: 2%;
+}
+.coluna{
+    padding: 5px;
+}
+.trein-container{
+    margin-top: 3%;
+    padding: 0 !important;
+}
+
+.trein-img{
+    border-radius: 25px;
+}
+.trein-subtite{
+    font-family: branding;
+    color:#289FBF;
+    font-size: 24px;
+}
+.text{
+    font-size: 12px;
 }
