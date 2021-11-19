@@ -104,8 +104,10 @@ background: linear-gradient(90deg, rgba(248,153,29,1) 0%, rgba(236,125,49,1) 25%
 }
 .more-div-2{
     margin-top: 4% !important;
-    margin: 0 auto;
     width: 40%;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: #289FBF;
 }
 .more-div a{
     text-decoration: none;
@@ -130,7 +132,10 @@ margin-top: 4%;
 margin-left: 16%;
 }
 .projects-text{
-   
+    margin-top: 8%;
+}
+.proj-img{
+    padding-left: 5%;
 }
 .hr1{
     margin-top: 2%;
@@ -142,6 +147,19 @@ margin-left: 16%;
 }
 .proj-text{
     font-size: 24px;
-    font-family: branding-light;
+    font-family: branding-regular;
     font-weight: bold;
 }
+.botton-banner{
+    background: #289FBF;
+    border: 1px solid #289FBF;
+}
+.botton-banner:hover{
+    background-color: white;
+    color: #289FBF;
+    box-shadow: 10px 10px 5px .5;
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+}
+  
