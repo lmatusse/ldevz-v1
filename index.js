@@ -13,7 +13,7 @@ app.use(express.json())
 app.set('view engine', 'html')
 app.engine('html', ejs.renderFile)
 app.use(express.static('./public'));
-const porta=process.env.PORT || 2021
+const porta=process.env.PORT || 2020
 /*app.listen(2001,function(){
     console.log('Sucess 2001')
 })*/
