@@ -285,7 +285,7 @@
              
             </div>
             <div class="col-md-4">
-              <form class="f-form" action="">
+              <form class="f-form" name="cadastro" action="mailto:englmatusse@gmail.com" method="get" id="cadastro">
                 <p>
 
                     <input type="text" name="nome" id="nome" placeholder="nome">
@@ -299,11 +299,13 @@
               </p>
                <p>
              
-                  <textarea name="" id="" cols="30" rows="10" placeholder="mensagem"></textarea>                
+                  <textarea name="mensagem" id="" cols="30" rows="10" placeholder="mensagem"></textarea>                
                
                </p>
+               <button class="f-submit" type="submit" value="click" id="enviar">enviar</button>
                <input class="f-submit" type="submit" value="enviar">
               </form>
+              <a href="javascript:{document.cadastro.submit();}">Enviar o Formulário</a>
             </div>
           </div>
         </div>
@@ -313,5 +315,15 @@
           Copyright © 2021. Reservados todos direitos a <span class="copy-c">LDEVZ</span>  Tecnhologies
           </p>
       </div>
+      <script >
+      /*document.getElementById('signup-form').addEventListener('submit', function () {
+    var nome = this.querySelector('input[name=nome]'), nome = nome.value;
+    var email = this.querySelector('input[name=email]'), email = email.value;
+    var mensage =  this. querySelector('input[name=mensagem]'), mensagem=mensagem.value;
+    var texto = 'Olá destinatário, \nMeu nome é '+ nome +' e meu email é '+ email;
+    this.querySelector('input[name=Body]').setAttribute('value', texto);
+});
+;*/
+      </script>
 </body>
 </html>
