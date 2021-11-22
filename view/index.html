@@ -11,6 +11,8 @@
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+  <%- include('/partials/head') %>
+
     <div class="container">
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
           <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
@@ -31,7 +33,21 @@
         </header>
       </div>
       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
+        <div class="carouse@media only screen and (min-width: 768px) {
+          /* For desktop: */
+          .col-1 {width: 8.33%;}
+          .col-2 {width: 16.66%;}
+          .col-3 {width: 25%;}
+          .col-4 {width: 33.33%;}
+          .col-5 {width: 41.66%;}
+          .col-6 {width: 50%;}
+          .col-7 {width: 58.33%;}
+          .col-8 {width: 66.66%;}
+          .col-9 {width: 75%;}
+          .col-10 {width: 83.33%;}
+          .col-11 {width: 91.66%;}
+          .col-12 {width: 100%;}
+        }l-indicators">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
@@ -110,7 +126,7 @@
       <div class="trein-container ">
         <div class="row t-row">
           <div class="col-md-3 coluna">
-            <img class="trein-img" src="../img/design.png" width="350px" height="300px">
+            <img class="trein-img" src="../img/design.png" width="300px" height="300px">
             <div class="row trein-container">
                 <div class="col-md-2">
                   <img class=" trein-image"  src="../img/icons-05.png" width="40px" height="40px" alt="">
@@ -124,7 +140,7 @@
 
           </div>
           <div class="col-md-3 coluna">
-            <img class="trein-img" src="../img/programaçao.png"  width="350px" height="300px">
+            <img class="trein-img" src="../img/programaçao.png"  width="300px" height="300px">
             <div class="row trein-container">
             <div class="col-md-2">
               <img class=" trein-image"  src="../img/icons-05.png" width="40px" height="40px" alt="">
@@ -135,7 +151,7 @@
             <a href="#trein-from"><h4 class="trein-submit">inscrever-se</h4></a>
           </div>
           <div class="col-md-3 coluna">
-            <img class="trein-img" src="../img/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg"  width="350px" height="300px">
+            <img class="trein-img" src="../img/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg"  width="300px" height="300px">
             <div class="row trein-container">
             <div class="col-md-2">
               <img class=" trein-image"  src="../img/icons-05.png" width="40px" height="40px" alt="">
@@ -147,7 +163,7 @@
 
           </div>
           <div class="col-md-3 coluna">
-            <img class="trein-img" src="../img/farzad-nazifi-p-xSl33Wxyc-unsplash.jpg"  width="350px" height="300px">
+            <img class="trein-img" src="../img/farzad-nazifi-p-xSl33Wxyc-unsplash.jpg"  width="300px" height="300px">
             <div class="row trein-container">
 
             <div class="col-md-2">
@@ -165,7 +181,7 @@
       <div class="trein-container-1 ">
         <div class="row t-row">
           <div class="col-md-3 coluna">
-            <img class="trein-img" src="../img/design.png" width="350px" height="300px">
+            <img class="trein-img" src="../img/design.png" width="300px" height="300px">
             <div class="row trein-container">
                 <div class="col-md-2">
                   <img class=" trein-image"  src="../img/icons-05.png" width="40px" height="40px" alt="">
@@ -179,7 +195,7 @@
 
           </div>
           <div class="col-md-3 coluna">
-            <img class="trein-img" src="../img/design.png"  width="350px" height="300px">
+            <img class="trein-img" src="../img/design.png"  width="300px" height="300px">
             <div class="row trein-container">
             <div class="col-md-2">
               <img class=" trein-image"  src="../img/icons-05.png" width="40px" height="40px" alt="">
@@ -190,7 +206,7 @@
             <a href="#trein-from"><h4 class="trein-submit">inscrever-se</h4></a>
           </div>
           <div class="col-md-3 coluna">
-            <img class="trein-img" src="../img/design.png"  width="350px" height="300px">
+            <img class="trein-img" src="../img/design.png"  width="300px" height="300px">
             <div class="row trein-container">
             <div class="col-md-2">
               <img class=" trein-image"  src="../img/icons-05.png" width="40px" height="40px" alt="">
@@ -202,7 +218,7 @@
 
           </div>
           <div class="col-md-3 coluna">
-            <img class="trein-img" src="../img/design.png"  width="350px" height="300px">
+            <img class="trein-img" src="../img/design.png"  width="300px" height="300px">
             <div class="row trein-container">
 
             <div class="col-md-2">
@@ -221,7 +237,7 @@
       </div>
       <div class=" container projects">
         <div class="row">
-          <div class="col-md-6 proj-coluna">
+          <div class="col-md-5 proj-coluna">
             <h1 class=" color-primary projects-text">Projectos</h1>
             <div class="hr1"></div>
             <p class="proj-text">
