@@ -74,13 +74,15 @@ background: linear-gradient(90deg, rgba(248,153,29,1) 0%, rgba(236,125,49,1) 25%
     border-bottom: 3px solid #289FBF !important;
 }
 .nav-item a:hover {
-   border-bottom: 2px solid #289FBF;
+   border-bottom: 3px solid #289FBF;
     color: #289FBF;
     border-radius: 0 !important;
 }
 .nav-pills .nav-link.active{
-    background-color: #F8991D !important;
-    
+    border-bottom: 3px solid #289FBF;
+    color: white;
+    border-radius: 0 !important;  
+    background: #F8991D !important;  
 }
 .color-secundary{
     font-family: branding-regular;
@@ -104,8 +106,10 @@ background: linear-gradient(90deg, rgba(248,153,29,1) 0%, rgba(236,125,49,1) 25%
     padding: 5px;
 }
 .trein-container{
-    margin-top: 3%;
+    margin-top: 5%;
     padding: 0 !important;
+    margin-bottom: 5%;
+    width: 100%;
 }
 
 .trein-img{
@@ -115,9 +119,13 @@ background: linear-gradient(90deg, rgba(248,153,29,1) 0%, rgba(236,125,49,1) 25%
     font-family: branding-bold;
     color:#289FBF;
     font-size: 24px;
+    margin-top: 2%;
+    margin-left: 1%;
 }
 .text{
-    font-size: 14px;
+    font-size: 18px;
+    font-family: branding-regular;
+
 }
 .coluna a{
     text-decoration: none !important;
@@ -132,6 +140,11 @@ background: linear-gradient(90deg, rgba(248,153,29,1) 0%, rgba(236,125,49,1) 25%
     padding-top: 2%;
     padding-bottom: 2%;
     font-weight: bold;
+}
+.trein-image{
+    background: #289FBF;
+    border-radius: 50%;
+    padding: 10px;
 }
 .more-div{
     margin-top: 4% !important;
@@ -209,6 +222,10 @@ background: linear-gradient(90deg, rgba(56,245,209,1) 0%, rgba(40,159,191,0.9934
     margin-left: 10%;
     margin-right: 10%;
     padding-bottom: 5%;
+}
+.t-row{
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .f-form{
     margin-top: 5%;
