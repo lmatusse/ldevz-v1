@@ -90,6 +90,8 @@ padding-bottom: 5%;
     font-family: branding-regular;
    text-transform: uppercase;
     color:#F8991D;
+    font-size: 36px;
+    width: 70%;
 }
 .text-start{
     top:20% !important
@@ -389,3 +391,89 @@ background: linear-gradient(90deg, rgba(56,245,209,1) 0%, rgba(40,159,191,0.9934
         align-items: center;
     }
   }*/
+  /*Project Page*/
+  .banner-img{
+      width: 100%;
+     /* background-image: url('../img/farzad-nazifi-p-xSl33Wxyc-unsplash.jpg');*/
+      background-size: cover;
+      background-position: center;
+  }
+  .color-white{
+    font-family: branding;
+  color: white;
+    transform: scale(1, 1);
+    letter-spacing: 1.5px;
+    font-size: 54px;
+  }
+  .color-white-1{
+    font-family: branding;
+  color: white;
+    transform: scale(1, 1);
+    letter-spacing: 1.5px;
+    font-size: 40px;
+    margin-bottom: 3%;
+  }
+  .color-secundary-1{
+    font-family: branding-regular;
+   text-transform: uppercase;
+    color:#F8991D;
+    font-size: 36px;
+    width: 35%;
+}
+.text-width{    
+    margin-top: 1%;
+    color: white;
+    text-align: center;
+    font-family: branding-regular;
+    font-size: 33px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: 600;
+}
+.projects-col{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 3px solid #F8991D;
+    box-shadow: 7px 6px 10px -5px !important;
+}
+.proj-header{
+    font-size: 36px;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    text-transform:capitalize;
+}
+.proj-col{
+    font-size: 18px;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 8%; font-family: branding-regular;
+    color: #289FBF;
+    font-weight: bold;
+    width: 70%;
+}
+.trein-container-1{
+    margin-top: 5%;
+    padding: 0 !important;
+    margin-bottom: 5%;
+    width: 100%;
+    padding-left: 5% !important;
+}
+.ver-proj{
+    text-decoration: none;
+    display: flex;
+  
+}
+.diferent{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 3px solid transparent;
+    background:linear-gradient(90deg, rgba(248,153,29,1) 0%, rgba(236,125,49,1) 25%, rgb(230, 90, 14) 43%);   
+    box-shadow: 7px 6px 10px -5px !important;
+}
+.diferent p, .diferent h1{
+    color: white;
+}
