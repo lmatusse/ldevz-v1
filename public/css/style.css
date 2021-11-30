@@ -181,6 +181,7 @@ padding-bottom: 5%;
 .projects{
 margin-top: 4%;
 margin-left: 16%;
+margin-bottom: 4%;
 }
 .projects-text{
     margin-top: 8%;
@@ -212,6 +213,42 @@ margin-left: 16%;
     -webkit-animation: swing 1s ease;
     animation: swing 1s ease;
     -webkit-animation-iteration-count: 1;
+}
+/*fixed menu*/
+.d-flex {
+    display: flex !important;
+    margin-left: -307px;
+    background: white;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-right: 0%;
+    margin-left: -3%;
+}
+.py-3 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+.mb-4{
+    position: fixed;
+    top: 0;
+    z-index: 30;
+    background: white;
+    position: fixed;
+    top: 0;
+    z-index: 80;
+    width: 100%;
+}
+.me-md-auto {
+    margin-right: 518px !important;
+}
+.fs-4 {
+    font-size: 1.5rem !important;
+    margin-left: 316px;
 }
   
 /*FOOTER*/
