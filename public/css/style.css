@@ -477,3 +477,47 @@ background: linear-gradient(90deg, rgba(56,245,209,1) 0%, rgba(40,159,191,0.9934
 .diferent p, .diferent h1{
     color: white;
 }
+/*SErvices*/
+.assistencia{
+    width: 100%;
+    height: 60vh;
+   padding-top: 5%;
+   margin-bottom: 5%;
+}
+.assistencia > div{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.assistencia >div .more-div {
+float: left;
+width: 50%;
+}
+.dev-web{
+    width: 100%;
+    height: 70vh;
+   padding-top: 5%;
+   margin-bottom: 5%;
+   background:linear-gradient(90deg, rgba(248,153,29,1) 0%, rgba(236,125,49,1) 25%, rgb(230, 90, 14) 43%); 
+   padding-bottom: 5%;
+}
+.dev-web .proj-text{
+    color: white;
+    float: right;
+}
+.dev-web .projects-text{
+    color: white;
+    float: right;
+    margin-bottom: 2%;
+}
+.dev-web > div{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.dev-web >div .more-div {
+float: right;
+width: 50%;
+
+}
+.dev-web >div  .more{
+    border: white;
+}
