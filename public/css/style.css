@@ -298,7 +298,9 @@
     font-size: 1.5rem !important;
     margin-left: 316px;
 }
-
+.carousel {
+    margin-top: 100px;
+}
 /*FOOTER*/
 .f-container {
     width: 100%;
