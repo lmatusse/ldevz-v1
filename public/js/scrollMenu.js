@@ -8,3 +8,14 @@ window.addEventListener('scroll', function() {
       menu.classList.remove('mudarCor'); // remove classe "mudaCor"
     }
 });
+var btn = document.querySelector("#btnInsc");
+btn.addEventListener("click", function() {
+    var div = document.querySelector("#inscForm");
+        div.style.display = "block"; 
+});
+
+var closee=document.querySelector("#close");
+closee.addEventListener("click", function() {
+    var divClose=document.querySelector("#inscForm");
+    divClose.style.display="none";
+});

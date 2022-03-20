@@ -165,12 +165,80 @@
 .coluna a {
     text-decoration: none !important;
 }
-
-.trein-submit {
-    border: 1px solid #289FBF;
-    background-color: #289FBF;
+#btnInsc{
+    width: 75%;
+background-color: #289FBF;
+}
+.inscForm{
+    display: none;
+    top: 1583px !important;
+        position: absolute;
+        width: 100%;
+        padding-left: 15%;
+        padding-right: 15%;
+        height: 969px !important;
+        background-color: rgba(  17, 16, 16, 0.5);
+        padding-top: 202px;
+}
+.form-left{
+    background-color: white;
+padding-top: 50px;
+padding-bottom: 50px;
+border-top-left-radius: 8px;
+border-bottom-left-radius: 8px;
+}
+.inscForm1{
+border: 3px #F8991D solid ;
+border-radius: 12px;
+position: relative;
+}
+#inscForm .trein-subtite{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.form-separation{
+    margin-bottom: 35px;
+}
+label {
+    margin-bottom: 15px;
+  }
+.right-form{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color:#F8991D;
+}
+#inscForm .f-submit{
+float: left !important;
+border-radius: 20px;
+margin-left: 62px;
+width: 50%;
+}
+#inscForm form{
+    width: 69%;
+margin-left: 15%;
+}
+#inscForm form input {
+    height: 42px;
+    width: 100%;
+    padding-left: 17px;
+    border: 2px #F8991D solid;
+    border-radius: 4px;
+  }
+.text-into{
+position: relative;
+top: 43%;
+padding-left: 11%;
+text-align: center;
+}
+.text-into h1{
     color: white;
-    width: 45%;
+}
+.text-into p{
+    color: white;
+}
+.trein-submit {
+    color: white;
     text-align: center;
     font-size: 16px;
     padding-top: 2%;
@@ -233,7 +301,18 @@
 .proj-img {
     padding-left: 5%;
 }
-
+.close{
+    float: right;
+    position: relative;
+    border-radius: 20px;
+    background-color: #fbf6f6;
+    color: #5d6164;
+    width: 6%;
+    top: 12px;
+    right: 5px;
+    border: 1px;
+    font-weight: bold;
+}
 .hr1 {
     margin-top: 2%;
     margin-bottom: 3%;
