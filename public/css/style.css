@@ -4,6 +4,9 @@
 .my-header{
     max-width: 100%;
 }
+.mudarCor{
+    background-color: rgb(247, 244, 244) !important;
+}
 @font-face {
     font-family: aquire;
     src: url('../fonts/AquireBold.otf');
@@ -30,16 +33,18 @@
 }
 
 .nav-item a {
-    font-family: aquire;
     color: #289FBF;
 }
 
 .color-principal {
     font-family: branding;
-    color: #289FBF;
+    color: #fff;
     text-transform: uppercase;
-    transform: scale(1, 1.4);
+    transform: scale(1, 1.2);
     letter-spacing: 1px;
+}
+.carousel-caption span{
+    color: #289FBF;
 }
 
 .color-primary {
@@ -106,14 +111,14 @@
 
 .color-secundary {
     font-family: branding-regular;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     color: #F8991D;
-    font-size: 36px;
+    font-size: 25px;
     width: 70%;
 }
 
 .text-start {
-    top: 20% !important
+    top: 32% !important
 }
 
 .trein-text {
@@ -263,7 +268,7 @@
 .d-flex {
     display: flex !important;
    /* margin-left: -307px;*/
-    background: white;
+  /*  background: white;*/
 }
 
 .nav {
@@ -282,11 +287,12 @@
 }
 
 .mb-4 {
-    background: white;
+    /*background: white;*/
     position: fixed;
     top: 0;
     z-index: 80;
     width: 100%;
+    transition: background-color 0.5s ease-in-out;
 }
 
 .me-md-auto {
@@ -298,9 +304,9 @@
     font-size: 1.5rem !important;
     margin-left: 316px;
 }
-.carousel {
+/*.carousel {
     margin-top: 100px;
-}
+}*/
 /*FOOTER*/
 .f-container {
     width: 100%;
@@ -351,9 +357,10 @@
 }
 
 .f-submit {
-    border: 3px solid white;
+    border: 3px solid rgba(248, 153, 29, 1);
     border-radius: 5px;
-    background: linear-gradient(90deg, rgba(248, 153, 29, 1) 0%, rgba(236, 125, 49, 1) 25%, rgb(230, 90, 14) 43%);
+    background-color:rgba(248, 153, 29, 1) ;
+   /* background: linear-gradient(90deg, rgba(248, 153, 29, 1) 0%, rgba(236, 125, 49, 1) 25%, rgb(230, 90, 14) 43%);*/
     color: white;
     width: 50%;
     padding-top: 2%;
