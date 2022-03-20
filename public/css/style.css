@@ -171,14 +171,14 @@ background-color: #289FBF;
 }
 .inscForm{
     display: none;
-    top: 1583px !important;
-        position: absolute;
-        width: 100%;
-        padding-left: 15%;
-        padding-right: 15%;
-        height: 969px !important;
-        background-color: rgba(  17, 16, 16, 0.5);
-        padding-top: 202px;
+    top: 1329px !important;
+    position: absolute;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: 1437px !important;
+    background-color: rgba( 17, 16, 16, 0.8);
+    padding-top: 294px;
 }
 .form-left{
     background-color: white;
