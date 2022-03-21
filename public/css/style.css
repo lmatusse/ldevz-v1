@@ -693,3 +693,12 @@ text-align: center;
 .dev-web>div .more {
     border: white;
 }
+/*CONTACT PAGE CSS*/
+.contact-back{
+background-image: url('../img/programaçao.png');
+height: 969px;
+filter:brightness(50%)
+}
+.contac-form form{
+width: 100%;
+}
