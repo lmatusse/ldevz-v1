@@ -1,0 +1,52 @@
+.my-info {
+    height: 100vh;
+    width: 100% !important;
+    position: relative;
+    top: 0px;
+}
+
+.my-info .me {
+    background-color: #f7f2f2;
+    padding: 0 !important;
+}
+
+.about-me {
+    height: 100%;
+    width: 100%;
+}
+
+.about-me:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.contact-me {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    top: 0%;
+    position: relative;
+    border-radius: 50%;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.contact {
+    width: 100%;
+}
+
+.contact-me hr {
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid black !important;
+}
+
+.contact-me h3 {
+    font-size: 55px !important;
+    text-align: center;
+}
+
+hr:not([size]) {
+    height: 3px !important;
+}
