@@ -106,7 +106,7 @@
                     
                     .details {
                         padding-top: 20px;
-                        padding-left: 20px;
+                        padding-left: 50px;
                     }
                     
                     .full-s {
@@ -115,4 +115,10 @@
                     
                     .details h2 {
                         text-align: center;
+                    }
+                    
+                    .content {
+                        width: 550px;
+                        position: relative;
+                        left: 155px;
                     }
